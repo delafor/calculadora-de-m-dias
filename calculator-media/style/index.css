@@ -1,0 +1,69 @@
+ body {
+    background: #616066 ;
+ }
+  
+.corpo { 
+     margin-top: -10px;
+     position: absolute;
+     top: 40%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     width: 300px;
+     width: 300px;
+     padding: 40px;
+     border: 2px ;
+     border-radius: 10px;
+     background-color :rgb(113, 112, 119) ;
+     box-shadow: 0px 0px 10px rgba(126, 120, 120, 0.1);   
+     color: white;
+     
+} 
+ 
+#p {
+     
+     text-align: right; /* Alinha o texto à direita */
+     margin-top: 1px;  
+     text-align: left; /* Alinha o texto à esquerda */
+     margin-top: -10px; /* Adiciona espaço entre o topo da div e o parágrafo */
+     margin-bottom: 10px; /* Adiciona espaço abaixo do parágrafo */
+     margin-left: 0px; /* Adiciona espaço à esquerda do parágrafo */
+     margin-right: 20px; 
+     font-size: 23px ; 
+     font: Arial;
+}
+
+#calculator { 
+    
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #8d32d8;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+} 
+
+ 
+#res {
+    
+     margin-top: 15px;
+     padding: 10px;
+     border: 1px solid #5a5555;
+     border-radius: 5px ;
+     background-color: #fff;
+     background-color: rgb(97, 97, 99); 
+     color: white;
+    
+} 
+
+#valor1,#valor2,#valor3 { 
+     width: 100%;
+     padding: 10px;
+     border: 1px solid #5a5555;
+     border-radius: 5px;
+     background-color: rgb(99, 98, 105);
+     color: white;
+     font-size: Arial 14px;
+}
